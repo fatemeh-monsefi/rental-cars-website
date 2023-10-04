@@ -1,0 +1,96 @@
+.card-tools-img {
+    width: 100px;
+    border: solid 14px #015FC9;
+}
+
+.box-alignment {
+    margin-left: -3rem;
+}
+
+.card-read-more {
+    color: #015FC9;
+    transition: all 0.5s ease 0s;
+}
+
+.card-read-more:hover {
+    color: white;
+    background-color: #015FC9;
+    border-color: #015FC9 !important;
+    transition: all 0.5s ease 0s;
+}
+
+.card-tools-para {
+    color: #696E77;
+    font-family: "Roboto",sans-serif;
+}
+
+/* fatemeh */
+
+/* for image slider buttom */
+.two{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 45px;
+      
+}
+  .one {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 39px;
+}
+/* image slider buttom end */
+
+/* icon size */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.web-icon {
+  width: 60px;
+}
+/* icon size end */
+
+/* dropdown nav item */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .button {
+    padding: 9px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .dropdown .content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .content a {
+    display: block;
+    color: #212121;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .contentt a:hover {
+    background: #e3e3e3;
+  }
+  
+  .dropdown:hover .content {
+    opacity: 1;
+    z-index: 1;
+  }
+  /* dropdown nav item end */
+  /* faran */
