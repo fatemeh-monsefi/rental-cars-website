@@ -1,4 +1,15 @@
 
+.over p:hover {
+    transition: all .25s;
+    transform: scale(1.1);
+    transform-origin: left;
+}
+
+.text-info:hover {
+    color: grey !important;
+}
+
+
 .cc-button:hover{
     
     background-color: #0DD3F1 !important;
@@ -245,6 +256,7 @@ input:focus, textarea:focus{
   /* dropdown nav item end */
   /* faran */
 
+
   @media (max-width: 992px) {
     .backtop{
         display: none;
@@ -345,3 +357,4 @@ input:focus, textarea:focus{
   }
    
   /*Ava*/
+
