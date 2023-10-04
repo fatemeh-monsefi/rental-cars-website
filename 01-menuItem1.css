@@ -1,3 +1,4 @@
+
 .over p:hover {
     transition: all .25s;
     transform: scale(1.1);
@@ -7,3 +8,252 @@
 .text-info:hover {
     color: grey !important;
 }
+
+
+.cc-button:hover{
+    
+    background-color: #0DD3F1 !important;
+    border: 0px solid white;
+    
+
+}
+.cc-button:focus{
+    border:  5px solid rgba(58, 113, 196, 0.4);
+    transition: border 0.1s ease-in-out;
+}
+.image{
+    background-image: url(https://aps-bootstrap-teamwork.netlify.app/img/carousel-1.jpg) ;
+    background-size: cover;
+    
+    
+    
+}
+.blue-back-ground{
+    background-color: rgba(13, 110, 255, 0.85);
+}
+input, textarea{
+    color: #696E77 !important;
+    
+    
+}
+input:focus, textarea:focus{
+    border: 5px solid rgba(13, 110, 253, 0.5) !important;
+    border-radius: 10px !important;
+    color: #696E77 !important;
+    
+    
+    /* i couldnt find a way to delete the pale blue cover behind the borders:) if you had a solution please tell me ^_^ 
+    -Armita */
+
+}
+@media(max-width:400px){
+    .cc-button{
+        width: 100px;
+       display: flex;
+       
+        
+    }
+}
+.image-45{
+    width: 45px ;
+}
+
+.heading-team{
+    max-width: 500px;
+    
+    
+  }
+  .card {
+
+    position: relative;
+    overflow: hidden;
+    border: white solid 0px;
+    /* box-shadow: 0 0 12px rgb(65, 64, 64) */
+    box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.1), 20px 0px 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  .card:hover .icons {
+
+    bottom: 0;
+  
+  }
+  
+  .card-content img {
+
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  .card:hover .card-content img {
+
+    height: 80%;
+    transform: scale(1.1);
+  
+  }
+  .card-content h5 {
+
+    margin-top: 20px;
+    font-size: 24px;
+  
+  }
+  .card-content p {
+
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .icons {
+
+    position: absolute;
+    bottom: -10rem;
+    left: -50px;
+    width: 100%;
+    height: 60px;
+    box-sizing: content-box;
+    padding: 3rem;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  .solo{
+    background-color: #E8E8EDFF;
+    border: 0px solid white;
+  }
+  .all-icons{
+    position: absolute;
+    top:100px;
+  }
+  
+  .p-in-icon{
+    position: absolute;
+    top: -20px;
+  }
+  .card:hover .p-out-icon{
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  
+  .icons i {
+  
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+  
+  }
+  .btn-secondary:hover{
+
+    background-color: #015FC9 !important;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .image-gingil{
+    width: 500px;
+    height: 500px;
+    /* background-size: cover; */
+  }
+/* Armita */
+
+.card-tools-img {
+    width: 100px;
+    border: solid 14px #015FC9;
+}
+
+.box-alignment {
+    margin-left: -3rem;
+}
+
+.card-read-more {
+    color: #015FC9;
+    transition: all 0.5s ease 0s;
+}
+
+.card-read-more:hover {
+    color: white;
+    background-color: #015FC9;
+    border-color: #015FC9 !important;
+    transition: all 0.5s ease 0s;
+}
+
+.card-tools-para {
+    color: #696E77;
+    font-family: "Roboto",sans-serif;
+}
+
+/* fatemeh */
+
+/* for image slider buttom */
+.two{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 45px;
+      
+}
+  .one {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: 39px;
+}
+/* image slider buttom end */
+
+/* icon size */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+.web-icon {
+  width: 60px;
+}
+/* icon size end */
+
+/* dropdown nav item */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .button {
+    padding: 9px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .dropdown .content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .content a {
+    display: block;
+    color: #212121;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .contentt a:hover {
+    background: #e3e3e3;
+  }
+  
+  .dropdown:hover .content {
+    opacity: 1;
+    z-index: 1;
+  }
+  /* dropdown nav item end */
+  /* faran */
+
+
