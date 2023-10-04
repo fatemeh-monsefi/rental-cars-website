@@ -1,0 +1,27 @@
+.card-tools-img {
+    width: 100px;
+    border: solid 14px #015FC9;
+}
+
+.box-alignment {
+    margin-left: -3rem;
+}
+
+.card-read-more {
+    color: #015FC9;
+    transition: all 0.5s ease 0s;
+}
+
+.card-read-more:hover {
+    color: white;
+    background-color: #015FC9;
+    border-color: #015FC9 !important;
+    transition: all 0.5s ease 0s;
+}
+
+.card-tools-para {
+    color: #696E77;
+    font-family: "Roboto",sans-serif;
+}
+
+/* fatemeh */
