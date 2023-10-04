@@ -17,7 +17,7 @@
     <title>rent car</title>
   </head>
   <body>
-    <!-- navbar -->
+        <!-- navbar -->
     <header id="header-page">
       <nav
         class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5"
@@ -75,26 +75,73 @@
       </nav>
     </header>
 
+        <!-- photo slider -->
+        <div id="carouselExampleAutoplaying" class="carousel slide position-relative" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./img/mercedes-a-2023-3.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/bmw-i5-edrive40-2023.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/porche.jpg" class="d-block w-100" alt="">
+            </div>
+          </div>
+    
+          <!-- left buttom -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            <div class="boxes one bg-primary rounded-circle position-relative z-n1"></div>
+          </button>
+    
+            <!-- right buttom -->
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+              <div class="boxes two bg-primary rounded-circle position-relative z-n1"></div>
+            </button>
+        </div>
+    
+    
+        <!-- go to top button -->
+        <div class="link-box d-flex justify-content-end fixed-bottom m-4">
+          <a class="btn btn-lg btn-primary btn-lg-square " href="#header-page">
+            <i class="bi bi-arrow-up-circle-fill"></i>
+          </a>
+        
+        
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        <script
+          async
+          src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
+          crossorigin="anonymous"
+        ></script>
+        <script type="importmap">
+          {
+            "imports": {
+              "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
+              "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.esm.min.js"
+            }
+          }
+        </script>
+        <script type="module">
+          import * as bootstrap from "bootstrap";
+    
+          new bootstrap.Popover(document.getElementById("popoverButton"));
+        </script>
+      </body>
+    </html>
 
-
-
-    <script
-    async
-    src="https://cdn.jsdelivr.net/npm/es-module-shims@1/dist/es-module-shims.min.js"
-    crossorigin="anonymous"
-  ></script>
-  <script type="importmap">
-    {
-      "imports": {
-        "@popperjs/core": "https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/esm/popper.min.js",
-        "bootstrap": "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.esm.min.js"
-      }
-    }
-  </script>
-  <script type="module">
-    import * as bootstrap from "bootstrap";
-
-    new bootstrap.Popover(document.getElementById("popoverButton"));
-  </script>
-</body>
-</html>
