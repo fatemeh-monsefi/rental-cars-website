@@ -1,0 +1,131 @@
+.second-half{
+    /* background-color: #696E77; */
+    /* background: #6c757d; */
+    background-color: rgba(213, 222, 230, 1);
+}
+.font-change{ 
+    /* this property is for button */
+    font-size: medium;
+}
+.font-change:hover{
+    background-color: rgba(0, 90, 255, 1);
+    border: 0px solid rgba(0, 90, 255, 1);
+    transition: background-color 0.3s ease-in-out;
+}
+.weight-numbers{
+    font-weight: 750;
+    font-size: calc(1.425rem + 2.1vw);
+    
+    
+}
+.para-font{
+        font-size: x-large;
+        
+}
+@media (max-width: 992px){
+    .komak{
+        margin: 0 5rem;
+    }
+}
+/* Armita facts */
+
+.heading-team{
+    max-width: 500px;
+    
+    
+  }
+  .card {
+
+    position: relative;
+    overflow: hidden;
+    border: white solid 0px;
+    /* box-shadow: 0 0 12px rgb(65, 64, 64) */
+    box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.1), 20px 0px 20px rgba(0, 0, 0, 0.1);
+  
+  }
+  .card:hover .icons {
+
+    bottom: 0;
+  
+  }
+  
+  .card-content img {
+
+    width: 100%;
+    height: auto;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  .card:hover .card-content img {
+
+    height: 80%;
+    transform: scale(1.1);
+  
+  }
+  .card-content h5 {
+
+    margin-top: 20px;
+    font-size: 24px;
+  
+  }
+  .card-content p {
+
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .icons {
+
+    position: absolute;
+    bottom: -10rem;
+    left: -50px;
+    width: 100%;
+    height: 60px;
+    box-sizing: content-box;
+    padding: 3rem;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+  
+  }
+  .solo{
+    background-color: #E8E8EDFF;
+    border: 0px solid white;
+  }
+  .all-icons{
+    position: absolute;
+    top:100px;
+  }
+  
+  .p-in-icon{
+    position: absolute;
+    top: -20px;
+  }
+  .card:hover .p-out-icon{
+    visibility: hidden;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  
+  .icons i {
+  
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-size: 24px;
+    line-height: 50px;
+  
+  }
+  .btn-secondary:hover{
+
+    background-color: #015FC9 !important;
+    color: white !important;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .image-gingil{
+    width: 500px;
+    height: 500px;
+    /* background-size: cover; */
+  }
+  /* Armita Cards */
