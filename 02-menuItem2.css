@@ -3,7 +3,7 @@
     background-color: rgb(33, 33, 67);
   }
   @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
-  .width {
+  .web-icon {
     width: 60px;
   }
   @media (max-width: 992px) {
