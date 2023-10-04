@@ -1,0 +1,47 @@
+.cc-button:hover{
+    
+    background-color: #0DD3F1 !important;
+    border: 0px solid white;
+    
+
+}
+.cc-button:focus{
+    border:  5px solid rgba(58, 113, 196, 0.4);
+    transition: border 0.1s ease-in-out;
+}
+.image{
+    background-image: url(https://aps-bootstrap-teamwork.netlify.app/img/carousel-1.jpg) ;
+    background-size: cover;
+    
+    
+    
+}
+.blue-back-ground{
+    background-color: rgba(13, 110, 255, 0.85);
+}
+input, textarea{
+    color: #696E77 !important;
+    
+    
+}
+input:focus, textarea:focus{
+    border: 5px solid rgba(13, 110, 253, 0.5) !important;
+    border-radius: 10px !important;
+    color: #696E77 !important;
+    
+    
+    /* i couldnt find a way to delete the pale blue cover behind the borders:) if you had a solution please tell me ^_^ 
+    -Armita */
+
+}
+@media(max-width:400px){
+    .cc-button{
+        width: 100px;
+       display: flex;
+       
+        
+    }
+}
+.image-45{
+    width: 45px ;
+}
