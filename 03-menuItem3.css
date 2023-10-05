@@ -154,3 +154,15 @@
 }
 
 /* fatemeh */
+
+.over p:hover {
+  transition: all .25s;
+  transform: scale(1.1);
+  transform-origin: left;
+}
+
+.text-info:hover {
+  color: grey !important;
+}
+
+/*Ava*/
