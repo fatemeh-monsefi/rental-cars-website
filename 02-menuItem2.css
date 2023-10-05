@@ -44,7 +44,7 @@
     box-shadow: -20px 0px 20px rgba(0, 0, 0, 0.1), 20px 0px 20px rgba(0, 0, 0, 0.1);
   
   }
-  .card:hover .icons {
+  .card:hover .icons-form {
 
     bottom: 0;
   
@@ -74,7 +74,7 @@
     margin-top: 10px;
     font-size: 16px;
   }
-  .icons {
+  .icons-form {
 
     position: absolute;
     bottom: -10rem;
@@ -88,6 +88,9 @@
     background-color: white;
     transition: all 0.3s ease-in-out;
   
+  }
+  .icons-form a{
+    text-decoration: none;
   }
   .solo{
     background-color: #E8E8EDFF;
@@ -108,7 +111,7 @@
   }
   
   
-  .icons i {
+  .icons-form i {
   
     display: inline-block;
     margin: 0 10px;
@@ -259,3 +262,6 @@
   }
   
 
+  /* *{
+    outline: red solid 2px ;
+  } */
