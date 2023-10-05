@@ -1,5 +1,6 @@
 
 
+
 .nav-one {
     height: 30px;
     background-color: rgb(33, 33, 67);
@@ -265,3 +266,6 @@
 
 /* team end Armita */
 
+  /* *{
+    outline: red solid 2px ;
+  } */
