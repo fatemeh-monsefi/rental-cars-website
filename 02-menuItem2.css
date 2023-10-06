@@ -30,6 +30,7 @@
     font-size: 14px;
   }
   
+  
   .icons {
     position: absolute;
     right: 20px;
@@ -46,6 +47,7 @@
     position: relative;
     bottom: 320px;
     left: 80px;
+    width: 500px;
   }
   .dropdown {
     position: relative;
