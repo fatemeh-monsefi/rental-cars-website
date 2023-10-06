@@ -1,0 +1,168 @@
+.nav-one {
+    height: 30px;
+    background-color: rgb(33, 33, 67);
+  }
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+  .web-icon {
+    width: 60px;
+  }
+  @media (max-width: 992px) {
+    .none {
+      display: none;
+    }
+  }
+  .bi-telephone-fill {
+    position: relative;
+    top: 18px;
+  }
+  .number {
+    position: relative;
+    bottom: 5px;
+    left: 35px;
+    font-size: 15px;
+  }
+  .email {
+    position: relative;
+    left: 55px;
+    top: 5px;
+    font-size: 14px;
+  }
+  .date {
+    position: relative;
+    left: 70px;
+    top: 6px;
+    font-size: 14px;
+  }
+  
+  .icons {
+    position: relative;
+    left: 600px;
+    font-size: large;
+  }
+  .image-webpage-2 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    transform: scalex(1.148);
+  }
+  .parent {
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown .button {
+    padding: 9px 16px;
+    font-size: 16px;
+    font-family: inherit;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .dropdown .content {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+    opacity: 0;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .content a {
+    display: block;
+    color: #212121;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+  }
+  
+  .dropdown .contentt a:hover {
+    background: #e3e3e3;
+  }
+  
+  .dropdown:hover .content {
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .parent-box2 {
+    box-sizing: border-box;
+  }
+  
+  .parent-box img {
+    max-width: 570px;
+    max-height: 800px;
+    border-bottom-right-radius: 16px;
+  }
+  
+  .child-box {
+    width: 120px;
+    min-height: 120px;
+    outline: 15px solid white;
+    border-radius: 16px;
+    position: relative;
+    bottom: 450px;
+    left: 5px;
+  }
+  .parent-box {
+    width: 600px;
+    height: 600px;
+    box-sizing: border-box;
+  }
+  
+  @media (max-width: 540px) {
+    .parent p {
+  
+      visibility: hidden;
+    }
+  }
+
+/* faran */
+
+.card-tools-img {
+    width: 100px;
+    border: solid 14px #015FC9;
+}
+
+.box-alignment {
+    margin-left: -3rem;
+}
+
+.card-read-more {
+    color: #015FC9;
+    transition: all 0.5s ease 0s;
+}
+
+.card-read-more:hover {
+    color: white;
+    background-color: #015FC9;
+    border-color: #015FC9 !important;
+    transition: all 0.5s ease 0s;
+}
+
+.card-tools-para {
+    color: #696E77;
+    font-family: "Roboto",sans-serif;
+}
+
+/* fatemeh */
+
+.over p:hover {
+  transition: all .25s;
+  transform: scale(1.1);
+  transform-origin: left;
+}
+
+.text-info:hover {
+  color: grey !important;
+}
+
+/*Ava*/
