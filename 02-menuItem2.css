@@ -158,6 +158,13 @@
         margin: 0 5rem;
     }
 }
+@media (max-width:380px){
+  .test-2 .btn{
+    width: 100px;
+    
+  }
+
+}
 /* facts end Armita */
 
 /* team  start */
